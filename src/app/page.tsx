@@ -20,9 +20,7 @@ export default function HomePage() {
       <ArrowScroll />
 
       <section id="skills" className="lg:flex lg:justify-center lg:items-center lg:h-screen">
-        <article>
-          <Technologies />
-        </article>
+        <Technologies />
       </section>
 
       <section id="proyectos">

@@ -9,6 +9,13 @@ export const ProyectList = () => {
 
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <Card
+                    img={"/news.jpeg"}
+                    title="Game News"
+                    description={<><ReactTag /> <JavaScriptTag /> <TailwindTag /><ViteTag /></>}
+                    code={"https://github.com/jaimereyess/game-news"}
+                    web={"https://game-news-jaime.vercel.app/"}
+                />
+                <Card
                     img={"/periodic.jpg"}
                     title="Tabla periódica"
                     description={<><ReactTag /><TypescriptTag /><TailwindTag /><NextTag /></>}
@@ -29,15 +36,8 @@ export const ProyectList = () => {
                     code={"https://github.com/jaimereyess/calendar-asir"}
                 />
                 <Card
-                    img={"/news.jpeg"}
-                    title="Game News"
-                    description={<><ReactTag /> <JavaScriptTag /> <TailwindTag /><ViteTag /></>}
-                    code={"https://github.com/jaimereyess/english-project2023"}
-                    web={"https://jaimereyess.github.io/english-project2023/"}
-                />
-                <Card
                     img={"/portfolio.png"}
-                    title="Portfolio"
+                    title="Jaime Reyes"
                     description={<><ReactTag /> <TypescriptTag /> <TailwindTag /><NextTag /></>}
                     code={"https://github.com/jaimereyess/portfolio"}
                     web={""}

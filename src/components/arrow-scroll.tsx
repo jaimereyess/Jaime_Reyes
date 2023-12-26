@@ -28,7 +28,7 @@ export const ArrowScroll = () => {
                 <div
                     style={{
                         position: 'fixed',
-                        bottom: '20px',
+                        bottom: '0px',
                         left: '50%',
                         transform: 'translateX(-50%)',
                         cursor: 'pointer',
@@ -38,10 +38,10 @@ export const ArrowScroll = () => {
                     <div className="flex items-center justify-center h-16">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-8 w-8 text-white animate-bounce"
+                            className="h-8 w-8 text-black animate-bounce"
                             fill="none"
                             viewBox="0 0 24 24"
-                            stroke="currentColor"
+                            stroke="grey"
                         >
                             <path
                                 strokeLinecap="round"
