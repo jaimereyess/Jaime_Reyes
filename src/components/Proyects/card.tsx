@@ -36,13 +36,13 @@ export const Card = ({ img, title, description, code, web }: CardProps) => {
                 </div>
             </div>
             <div className="p-6 pt-0 flex justify-around flex-col gap-2 md:flex-row">
-                <Link href={code}
+                <Link href={code} target="_blank"
                     className="button-card button-code">
                     {<FaCode size={20} />}
 
                 </Link>
                 {web && (
-                    <Link href={web}
+                    <Link href={web} target="_blank"
                         className="button-card button-web">
                         {<FaMagnifyingGlass size={20} />}
                     </Link>
