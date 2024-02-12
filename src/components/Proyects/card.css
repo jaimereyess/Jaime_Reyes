@@ -1,14 +1,14 @@
-.button-card{
+.button-card {
   @apply rounded-lg py-3 px-14 align-middle flex justify-center
     font-bold uppercase shadow-md transition-all
     hover:shadow-lg  focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85]
-    active:shadow-none
+    active:shadow-none;
 }
 
-.button-code{
-    @apply bg-blue-500 shadow-blue-500/40 hover:shadow-blue-500/60
+.button-code {
+  @apply bg-blue-500 shadow-blue-500/40 hover:shadow-blue-500/60;
 }
 
-.button-web{
-    @apply bg-green-500 shadow-green-500/40 hover:shadow-green-500/60
+.button-web {
+  @apply bg-green-500 shadow-green-500/40 hover:shadow-green-500/60;
 }

@@ -10,7 +10,8 @@
 
 
 body{
-  background-color: whitesmoke
+  background-color: whitesmoke;
+  @apply dark:bg-slate-950
 }
 
 * {
