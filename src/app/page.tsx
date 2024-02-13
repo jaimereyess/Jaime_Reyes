@@ -17,9 +17,11 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <section className="fixed top-5 w-full z-10">
+      <section className="fixed top-5 w-full z-10 flex">
         <Menu />
-        <ThemeSwitcher />
+        <div className="mr-20">
+          <ThemeSwitcher />
+        </div>
       </section>
 
       <section
@@ -38,7 +40,7 @@ export default function HomePage() {
         <Technologies />
       </section>
 
-      <section id="proyectos">
+      <section id="proyectos" className="mt-40">
         <article className="pt-10">
           <ProyectList />
         </article>

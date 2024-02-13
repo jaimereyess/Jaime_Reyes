@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -38,7 +39,7 @@ export const Greeting = () => {
           </span>
         </article>
       </div>
-      <article className="flex flex-col md:w-1/3 justify-end">
+      <article className="flex flex-col md:w-1/3 justify-end mt-20">
         <Text />
         <div className="flex flex-col gap-2 mt-10 md:items-end">
           <section className="flex flex-wrap space-x-10">

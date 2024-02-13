@@ -21,7 +21,7 @@ export const iconItems: iconsProps[] = [
     name: "React",
     icon: (
       <SiReact
-        size={75}
+        size={120}
         className="fill-blue-700 hover:fill-blue-800 hover:scale-125 duration-500"
       />
     ),
@@ -30,7 +30,7 @@ export const iconItems: iconsProps[] = [
     name: "Next.js",
     icon: (
       <SiNextdotjs
-        size={75}
+        size={120}
         className="hover:fill-gray-800 hover:scale-125 duration-500"
       />
     ),
@@ -39,7 +39,7 @@ export const iconItems: iconsProps[] = [
     name: "Javascript",
     icon: (
       <SiJavascript
-        size={75}
+        size={120}
         className="fill-yellow-500 hover:fill-yellow-600 hover:scale-125 duration-500"
       />
     ),
@@ -48,7 +48,7 @@ export const iconItems: iconsProps[] = [
     name: "Typescript",
     icon: (
       <SiTypescript
-        size={75}
+        size={120}
         className="fill-blue-600 hover:fill-blue-700 hover:scale-125 duration-500"
       />
     ),
@@ -57,7 +57,7 @@ export const iconItems: iconsProps[] = [
     name: "Tailwind",
     icon: (
       <SiTailwindcss
-        size={75}
+        size={120}
         className="fill-sky-500 hover:fill-sky-700 hover:scale-125 duration-500"
       />
     ),
@@ -66,7 +66,7 @@ export const iconItems: iconsProps[] = [
     name: "Bootstrap",
     icon: (
       <SiBootstrap
-        size={75}
+        size={120}
         className="fill-purple-700 hover:fill-purple-900 hover:scale-125 duration-500"
       />
     ),
@@ -75,7 +75,7 @@ export const iconItems: iconsProps[] = [
     name: "HTML",
     icon: (
       <SiHtml5
-        size={75}
+        size={120}
         className="fill-orange-600 hover:fill-orange-700 hover:scale-125 duration-500"
       />
     ),
@@ -84,7 +84,7 @@ export const iconItems: iconsProps[] = [
     name: "CSS",
     icon: (
       <SiCss3
-        size={75}
+        size={120}
         className="fill-blue-500 hover:fill-blue-600 hover:scale-125 duration-500"
       />
     ),
@@ -93,7 +93,7 @@ export const iconItems: iconsProps[] = [
     name: "GIT",
     icon: (
       <SiGit
-        size={75}
+        size={120}
         className="fill-gray-500 hover:fill-gray-600 hover:scale-125 duration-500"
       />
     ),
@@ -102,7 +102,7 @@ export const iconItems: iconsProps[] = [
     name: "MySQL",
     icon: (
       <SiMysql
-        size={75}
+        size={120}
         className="fill-orange-500 hover:fill-orange-700 hover:scale-125 duration-500"
       />
     ),
