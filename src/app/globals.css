@@ -8,10 +8,10 @@
   --tertiary: rgba(0, 0, 0, 0.6);
 }
 
+body {
+  background-image: url("/public/Montain.png");
 
-body{
-  background-color: whitesmoke;
-  @apply dark:bg-slate-950
+  @apply dark:bg-slate-950;
 }
 
 * {
@@ -38,10 +38,9 @@ body{
   background-color: var(--tertiary);
 }
 
-
 .list {
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity 2s ease;
 }
 
 .list.visible {

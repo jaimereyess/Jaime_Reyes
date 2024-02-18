@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${font.className} dark`}>
+      <body className={`${font.className}`}>
         <Provider>
           <main className="flex flex-col min-h-screen">{children}</main>
         </Provider>

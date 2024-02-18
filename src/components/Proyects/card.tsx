@@ -14,7 +14,7 @@ interface CardProps {
 
 export const Card = ({ img, title, description, code, web }: CardProps) => {
   return (
-    <div className="relative flex flex-wrap flex-col rounded-xl bg-white text-gray-700 ">
+    <div className="relative flex flex-wrap flex-col rounded-xl bg-slate-100/50 text-gray-700 dark:text-white dark:bg-slate-800/60">
       <div
         className="relative mx-4 -mt-6 rounded-xl bg-blue-gray-500 bg-clip-border
                                 text-white shadow-lg shadow-blue-gray-500/40 duration-300 overflow-hidden"

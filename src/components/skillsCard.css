@@ -1,0 +1,35 @@
+:root {
+  --box-shadow-light: 0 0 1px hsl(0deg 0% 0% / 0.075),
+    0 0 2px hsl(0deg 0% 0% / 0.075), 0 0 4px hsl(0deg 0% 0% / 0.075),
+    0 0 8px hsl(0deg 0% 0% / 0.075), 0 0 16px hsl(0deg 0% 0% / 0.075);
+
+  --box-shadow-dark: 0 0 1px hsl(0deg 0% 100% / 0.3),
+    0 0 2px hsl(0deg 0% 100% / 0.3), 0 0 4px hsl(0deg 0% 100% / 0.3),
+    0 0 8px hsl(0deg 0% 100% / 0.3), 0 0 16px hsl(0deg 0% 100% / 0.3);
+}
+
+.card {
+  font-size: 164px;
+  width: 300px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow-light);
+  transform-origin: 10% 60%;
+}
+
+.dark .card {
+  box-shadow: var(--box-shadow-dark);
+}
+
+.card-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: -120px;
+}
