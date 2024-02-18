@@ -1,5 +1,5 @@
 "use client";
-import "./skills.css";
+import "./skillsCard.css";
 import { motion, Variants } from "framer-motion";
 import { iconItems } from "./Technologies/list";
 
@@ -39,7 +39,7 @@ function Card({ icon, name }: CardProps) {
   );
 }
 
-export default function Fruits() {
+export function Skills() {
   return iconItems.map((icon) => (
     <Card icon={icon.icon} key={icon.name} name={icon.name} />
   ));

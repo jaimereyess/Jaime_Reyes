@@ -22,7 +22,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiReact
         size={120}
-        className="fill-blue-700 hover:fill-blue-800 hover:scale-125 duration-500"
+        className="fill-blue-700 hover:fill-blue-800 hover:scale-110 duration-500"
       />
     ),
   },
@@ -31,7 +31,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiNextdotjs
         size={120}
-        className="hover:fill-gray-800 hover:scale-125 duration-500"
+        className="hover:fill-gray-900 hover:scale-110 duration-500 dark:hover:fill-gray-200/90"
       />
     ),
   },
@@ -40,7 +40,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiJavascript
         size={120}
-        className="fill-yellow-500 hover:fill-yellow-600 hover:scale-125 duration-500"
+        className="fill-yellow-500 hover:fill-yellow-600 hover:scale-110 duration-500"
       />
     ),
   },
@@ -49,7 +49,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiTypescript
         size={120}
-        className="fill-blue-600 hover:fill-blue-700 hover:scale-125 duration-500"
+        className="fill-blue-600 hover:fill-blue-700 hover:scale-110 duration-500"
       />
     ),
   },
@@ -58,7 +58,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiTailwindcss
         size={120}
-        className="fill-sky-500 hover:fill-sky-700 hover:scale-125 duration-500"
+        className="fill-sky-500 hover:fill-sky-700 hover:scale-110 duration-500"
       />
     ),
   },
@@ -67,7 +67,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiBootstrap
         size={120}
-        className="fill-purple-700 hover:fill-purple-900 hover:scale-125 duration-500"
+        className="fill-purple-700 hover:fill-purple-900 hover:scale-110 duration-500"
       />
     ),
   },
@@ -76,7 +76,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiHtml5
         size={120}
-        className="fill-orange-600 hover:fill-orange-700 hover:scale-125 duration-500"
+        className="fill-orange-600 hover:fill-orange-700 hover:scale-110 duration-500"
       />
     ),
   },
@@ -85,7 +85,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiCss3
         size={120}
-        className="fill-blue-500 hover:fill-blue-600 hover:scale-125 duration-500"
+        className="fill-blue-500 hover:fill-blue-600 hover:scale-110 duration-500"
       />
     ),
   },
@@ -94,7 +94,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiGit
         size={120}
-        className="fill-gray-500 hover:fill-gray-600 hover:scale-125 duration-500"
+        className="fill-gray-500 hover:fill-gray-600 hover:scale-110 duration-500"
       />
     ),
   },
@@ -103,7 +103,7 @@ export const iconItems: iconsProps[] = [
     icon: (
       <SiMysql
         size={120}
-        className="fill-orange-500 hover:fill-orange-700 hover:scale-125 duration-500"
+        className="fill-orange-500 hover:fill-orange-700 hover:scale-110 duration-500"
       />
     ),
   },

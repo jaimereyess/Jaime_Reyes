@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import {
-  Technologies,
   Greeting,
   ArrowScroll,
   Menu,
   ProyectList,
   Footer,
   ThemeSwitcher,
+  Skills,
 } from "@/components/index";
 
 export const metadata: Metadata = {
@@ -19,9 +19,9 @@ export default function HomePage() {
     <>
       <section className="fixed top-5 w-full z-10 flex">
         <Menu />
-        <div className="mr-20">
+        <span className="absolute top-0 right-0 mr-20">
           <ThemeSwitcher />
-        </div>
+        </span>
       </section>
 
       <section
@@ -33,11 +33,11 @@ export default function HomePage() {
 
       <ArrowScroll />
 
-      <section
-        id="skills"
-        className="lg:flex lg:justify-center lg:items-center lg:h-screen"
-      >
-        <Technologies />
+      <section id="skills" className="flex flex-col items-center top-10">
+        <h2 className="pt-16 text-4xl md:text-6xl mb-6">Tecnologías</h2>
+        <article className="flex flex-wrap gap-10 justify-center align-middle">
+          <Skills />
+        </article>
       </section>
 
       <section id="proyectos" className="mt-40">

@@ -2,13 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { iconItems } from "./list";
-import { Poppins } from "next/font/google";
 import { container, item } from "./animations";
-
-const font = Poppins({
-  weight: "300",
-  subsets: ["latin"],
-});
 
 export const Icons = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,9 +30,7 @@ export const Icons = () => {
       animate="visible"
       id="list"
       className={`list grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 border-2 rounded-3xl p-10
-                 gap-10 ${isVisible ? "visible" : "invisible"} ${
-        font.className
-      }`}
+                 gap-10 ${isVisible ? "visible" : "invisible"}`}
     >
       {iconItems.map((icon) => (
         <motion.li
