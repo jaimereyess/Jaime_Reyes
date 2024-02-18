@@ -3,12 +3,9 @@
     0 0 2px hsl(0deg 0% 0% / 0.075), 0 0 4px hsl(0deg 0% 0% / 0.075),
     0 0 8px hsl(0deg 0% 0% / 0.075), 0 0 16px hsl(0deg 0% 0% / 0.075);
 
-  --box-shadow-dark: 0 0 1px hsl(0deg 0% 0% / 0.075),
-    0 0 2px hsl(0deg 0% 0% / 0.075), 0 0 4px hsl(0deg 0% 0% / 0.075),
-    0 0 8px hsl(0deg 0% 0% / 0.075), 0 0 16px hsl(0deg 0% 0% / 0.075);
-
-  --box-shadow-light-color: hsl(0deg 0% 0%);
-  --box-shadow-dark-color: hsl(0deg 0% 100%);
+  --box-shadow-dark: 0 0 1px hsl(0deg 0% 100% / 0.3),
+    0 0 2px hsl(0deg 0% 100% / 0.3), 0 0 4px hsl(0deg 0% 100% / 0.3),
+    0 0 8px hsl(0deg 0% 100% / 0.3), 0 0 16px hsl(0deg 0% 100% / 0.3);
 }
 
 .card {
@@ -19,7 +16,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  box-shadow: var(--box-shadow-dark);
+  box-shadow: var(--box-shadow-light);
   transform-origin: 10% 60%;
 }
 

@@ -19,7 +19,7 @@ export default function HomePage() {
     <>
       <section className="fixed top-5 w-full z-10 flex">
         <Menu />
-        <span className="absolute top-0 right-0 mr-20">
+        <span className="absolute top-5 right-5 md:right-10">
           <ThemeSwitcher />
         </span>
       </section>

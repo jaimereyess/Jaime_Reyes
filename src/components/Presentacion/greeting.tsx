@@ -42,7 +42,7 @@ export const Greeting = () => {
       <article className="flex flex-col md:w-1/3 justify-end mt-20">
         <Text />
         <div className="flex flex-col gap-2 mt-10 md:items-end">
-          <section className="flex flex-wrap space-x-10">
+          <section className="flex flex-wrap space-x-10 md:mt-20 lg:mt-0">
             <Link
               href={"https://github.com/jaimereyess"}
               className="border rounded-lg shadow-md p-2

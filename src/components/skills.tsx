@@ -33,6 +33,9 @@ function Card({ icon, name }: CardProps) {
     >
       <div className="splash" />
       <motion.div className="card" variants={cardVariants}>
+        <span className="absolute flex text-center text-2xl top-10">
+          {name}
+        </span>
         {icon}
       </motion.div>
     </motion.div>
@@ -40,7 +43,7 @@ function Card({ icon, name }: CardProps) {
 }
 
 export function Skills() {
-  return iconItems.map((icon) => (
-    <Card icon={icon.icon} key={icon.name} name={icon.name} />
+  return iconItems.map((skill) => (
+    <Card icon={skill.icon} key={skill.name} name={skill.name} />
   ));
 }
