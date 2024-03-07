@@ -7,16 +7,20 @@ export const Footer = () => {
         <h6>Jaime Reyes Rodríguez</h6>
         <Link
           href={"https://linkedin.com/in/jaime-reyes-rodríguez"}
-          className="bg-blue-200 hover:bg-blue-300 rounded-xl px-3 w-40 py-2 text-black"
+          target="_blank"
+          className="px-6 py-2 underline rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
         >
           LinkedIn
         </Link>
+
         <Link
           href={"https://github.com/jaimereyess"}
-          className="bg-purple-200 hover:bg-purple-300 rounded-xl w-40 py-2 text-black"
+          target="_blank"
+          className="px-6 py-2 underline rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
         >
           GitHub
         </Link>
+
         <span>jaimereyesrdgz@gmail.com</span>
       </section>
     </footer>

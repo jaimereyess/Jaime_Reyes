@@ -9,9 +9,7 @@
 }
 
 body {
-  background-image: url("/public/Montain.png");
-
-  @apply dark:bg-slate-950;
+  @apply bg-white dark:bg-black;
 }
 
 * {

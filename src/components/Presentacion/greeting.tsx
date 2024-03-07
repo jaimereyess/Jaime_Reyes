@@ -27,7 +27,7 @@ export const Greeting = () => {
         </span>
         <h1 className="text-8xl font-bold mt-2">
           <span
-            className={`${font.className} bg-gradient-to-r from-purple-500 via-blue-500
+            className={`${font.className} bg-gradient-to-r from-purple-500 via-blue-500 via-65%
         to-green-500 text-transparent bg-clip-text py-2`}
           >
             Jaime Reyes
