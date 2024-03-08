@@ -53,11 +53,17 @@ export const WavyBackground = ({
     h = ctx.canvas.height = window.innerHeight;
     ctx.filter = `blur(${blur}px)`;
     nt = 0;
-    window.onresize = function () {
+
+    const handleResize = () => {
       w = ctx.canvas.width = window.innerWidth;
       h = ctx.canvas.height = window.innerHeight;
       ctx.filter = `blur(${blur}px)`;
+      cancelAnimationFrame(animationId);
+      render();
     };
+
+    window.addEventListener("resize", handleResize);
+
     render();
   };
 

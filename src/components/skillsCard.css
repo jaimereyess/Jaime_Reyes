@@ -31,5 +31,5 @@
   justify-content: center;
   position: relative;
   padding-top: 20px;
-  margin-bottom: -120px;
+  @apply mb-[-105px] md:mb-[-120px];
 }
