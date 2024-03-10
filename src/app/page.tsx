@@ -8,37 +8,15 @@ import {
   ThemeSwitcher,
   Skills,
 } from "@/components/index";
-import { WavyBackground } from "@/components/ui/wavy-background";
-import { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "Jaime Reyes",
   description: "Página principal portfolio",
 };
 
-interface RenderPageProps {
-  children: ReactNode;
-}
-
-const RenderPage = ({ children }: RenderPageProps) => {
-  return (
-    <>
-      <div className="absolute visible dark:invisible">
-        <WavyBackground speed="slow" blur={8} backgroundFill="white">
-          {children}
-        </WavyBackground>
-      </div>
-      <div className="absolute invisible dark:visible">
-        <WavyBackground speed="slow" blur={8} backgroundFill="black">
-          {children}
-        </WavyBackground>
-      </div>
-    </>
-  );
-};
 export default function HomePage() {
   return (
-    <RenderPage>
+    <>
       <section className="fixed top-5 w-full z-10 flex">
         <Menu />
         <span className="absolute top-5 right-5 md:right-10">
@@ -64,6 +42,6 @@ export default function HomePage() {
         </article>
       </section>
       <Footer />
-    </RenderPage>
+    </>
   );
 }
